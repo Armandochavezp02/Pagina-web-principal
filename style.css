@@ -1,0 +1,108 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* header Stuff */
+
+.header {
+    display: flex;
+    padding-inline: 170px; /* This could be wrong*/
+    justify-content: space-between;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 12px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Hero Stuff and shit */
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.hero-title{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero-txt, a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-placeholder {
+    color: white;
+    background-color: lightskyblue;
+}
+
+.hero-container, .hero-placeholder {
+    width: 500px;
+    height: 200px;
+}
+
+/* random Stuff Stuff and some more shit stuff */
+
+.random-information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.ri-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding: 50px;
+}
+
+.ri-box-container {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    padding-bottom: 80px;
+}
+
+.ri-box {
+    max-width: 300px;
+}
+
+.ri-box-txt {
+    text-align: center;
+}
+
+
+
+/* General things of DOOM*/
+
+.header, .hero, .footer {
+    background-color: #1F2937;
+
+}
+
+img {
+    width: 250px;
+    height: 200px;
+}
