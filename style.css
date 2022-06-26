@@ -62,7 +62,7 @@ a {
 }
 
 /* random Stuff Stuff and some more shit stuff */
-
+/* the four squares */
 .random-information {
     display: flex;
     flex-direction: column;
@@ -93,7 +93,53 @@ a {
     text-align: center;
 }
 
+/* The big ass random quote*/
 
+.quote-box {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #E5E7EB;  
+    padding: 50px;
+    padding-inline: 250px;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+
+
+}
+
+/* The blue div with the botton*/
+.call-to-action {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-box {
+    display: flex;
+    align-items: center;
+    background-color: #3882F6;
+    color: white;
+    padding: 50px 250px;
+    gap: 150px;
+}
+
+
+/* FOOTER Fighters*/
+
+.footer {
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+}
 
 /* General things of DOOM*/
 
